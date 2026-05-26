@@ -12,4 +12,4 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Deploy HTML Page
-        run: echo "Static website deployed successfully"
+        run: echo "Static website deployed successfully!"
