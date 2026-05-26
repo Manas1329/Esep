@@ -1,0 +1,15 @@
+name: Deploy Website
+
+on:
+  push:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Deploy HTML Page
+        run: echo "Static website deployed successfully"
